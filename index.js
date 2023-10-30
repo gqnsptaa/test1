@@ -27,9 +27,9 @@ function getRaceTemplate(raceData) {
   return `
     <div>
       <div>Race Name: ${raceData.raceName}</div> 
-      <ul class="list-group">${raceData.Results.map((result) =>
-        getDriverTemplate(result)
-      )}</ul>
+      <ul class="list-group">
+        ${raceData.Results.map((result) => getDriverTemplate(result)).join("")}
+      </ul>
     </div> 
     `;
 }
