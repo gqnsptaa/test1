@@ -1,9 +1,22 @@
-# test1 
+# Artem's first WEB project
 
-## test 2
+## What will we do?
 
-### test 3
+Get F1 data from REST API and present in a HTML page
 
-# testt
+## How will it be done?
 
-## hello
+1. HTML page is loaded by the user
+  - External resources loaded
+     - Javascript file (my own file, on my computer)
+     - Bootstrap
+         - https://www.bootstrapcdn.com/
+2. Javascript fetches F1 data from REST API
+  - https://ergast.com/api/f1/current/last/results.json
+3. Update HTML with template containing:
+  - F1 data
+  - With Bootstrap classes
+
+When everything works, we want to:
+
+- Publish our changed to git (on Github)
